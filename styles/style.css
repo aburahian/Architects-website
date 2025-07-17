@@ -94,7 +94,7 @@ header>section{
 }
 /* features */
 .features{
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 .features-info{
@@ -102,7 +102,7 @@ header>section{
     height: 982px;
     margin-right: 140px;
 }
-.features > .features-info >.features-title> h3{
+.features-title> h3{
     font-size: 2.8rem;
     color: #131313;
     border-left: 5px solid rgba(255, 144, 14, 1.00);
@@ -159,13 +159,22 @@ header>section{
     .teams-features{
         text-align: center;
     }
+    .features-img button{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
  
 }
 @media screen and (min-WIdth:577PX) and (max-width:990px){
-     nav{
+     nav,.teams , .features {
         flex-direction: column;
     }
      .nav-bar ul{
         flex-direction: column;
     }
+    .features-img button{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+ 
 }
