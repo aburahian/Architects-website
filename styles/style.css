@@ -138,6 +138,7 @@ header>section{
     font-weight: 700;
 }
 /* facts */
+
 .facts-cards{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -150,6 +151,17 @@ header>section{
     text-align: center;
     align-items: center;
     justify-content: center;
+}
+.facts-card-number{
+    font-size: 2.75rem;
+    font-weight: 700;
+    color: #424242;
+    margin: 5px;
+}
+.facts-card-name{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #727272;
 }
 /* sponsors-info */
 .sponsors-info{
@@ -208,6 +220,7 @@ header>section{
     width: calc(100% - 15px);
     
   }
+  
 
     .teams-features{
         text-align: center;
